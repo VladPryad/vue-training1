@@ -9,7 +9,6 @@
 <script>
 
 export default {
-    name: "Task12",
     data() {
         return {
             name: ""

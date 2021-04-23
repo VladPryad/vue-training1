@@ -13,7 +13,7 @@ import Task12 from '@/components/Task12/Task12.vue'
 import Task345 from '@/components/Task345/Task345.vue'
 
 export default defineComponent({
-  name: 'App',
+  name: "App",
   components: {
     Task12,
     Task345

@@ -1,4 +1,5 @@
 import { createStore } from 'vuex'
+import breed from './modules/breed'
 
 export default createStore({
   state: {
@@ -7,6 +8,9 @@ export default createStore({
   },
   actions: {
   },
+  getters: {
+  },
   modules: {
+    breed
   }
 })
