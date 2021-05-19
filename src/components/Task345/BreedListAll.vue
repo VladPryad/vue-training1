@@ -13,7 +13,7 @@ import BreedItem from '@/components/Task345/BreedItem.vue'
 export default {
   name: 'BreedListAll',
   computed: {
-    ...mapGetters(['allBreeds', 'randomBreed'])
+    ...mapGetters(['allBreeds'])
   },
   methods: {
     ...mapActions(['fetchAllBreeds'])

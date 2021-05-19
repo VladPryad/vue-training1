@@ -19,9 +19,10 @@ export default {
         allBreeds(state: any) {
             return state.breeds;
         },
-        randomBreed(state: any) {
+        randomBreed: (state: any) => {
             let spreaded = Object.entries(state.breeds).filter((el: any) => !!el[1]['0']);
-            return spreaded[getRandomInt(spreaded.length)];
+            let seed = getRandomInt(spreaded.length);
+            return spreaded[seed];
         }
     },
     state: {

@@ -28,6 +28,7 @@ li {
     border: 1px solid rgb(179, 179, 179);
     border-radius: 5px;
     margin: 10px 0;
+    list-style-type: none;
 }
 .subBreeds {
     color: red;
